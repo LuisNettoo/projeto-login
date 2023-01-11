@@ -22,21 +22,24 @@ main {
 }
 
 .app {
-    max-width: 250px;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
 }
 
 .image {
     width: 250px;
     height: 200px;
-    background: black url(../images/metal.jpg) no-repeat right center;
+    background: black url(../images/metal.jpg) no-repeat left bottom;
     background-size: cover;
-    border-radius: 15px 15px 0 0;
+
 }
 
 .login {
     padding: 10px;
     background-color: white;
-    border-radius: 0px 0px 15px 15px;
 }
 
 .login h1 {
