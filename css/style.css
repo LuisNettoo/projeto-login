@@ -5,3 +5,110 @@
     --purple: #5f2c82;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+main {
+    display: flex;
+    background-color: var(--purple);
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    max-width: 250px;
+}
+
+.image {
+    width: 250px;
+    height: 200px;
+    background: black url(../images/metal.jpg) no-repeat right center;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.login {
+    padding: 10px;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.login h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.login p {
+    font-size: 0.8em;
+}
+
+.login .info {
+    display: flex;
+    align-items: center;
+    background-color: var(--purple);
+    border-radius: 7px;
+    margin: 5px 0px;
+
+}
+
+.login label {
+    font-size: 1.9em;
+}
+
+.login input {
+    width: 100%;
+    margin: 0px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--green);
+    outline: none;
+    border: none;
+    font-size: 1.1em;
+}
+
+.login input:focus {
+    background-color: white;
+}
+
+.material-symbols-outlined {
+    color: white;
+    margin-left: 5px;
+}
+
+.buttons button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.buttons button:nth-child(1) {
+    background-color: var(--green);
+    color: white;
+    border: none;
+}
+
+.buttons button:nth-child(1):hover {
+    background-color: #377976;
+}
+
+.buttons button:nth-child(2) {
+    border: 1px solid var(--green);
+}
+
+.buttons button:nth-child(2):hover {
+    background-color: var(--green);
+}
